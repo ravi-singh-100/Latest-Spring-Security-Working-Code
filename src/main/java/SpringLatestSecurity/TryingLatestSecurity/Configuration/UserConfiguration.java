@@ -17,7 +17,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 
 @Configuration
 @EnableWebSecurity
-public class Security {
+public class UserConfiguration {
     @Value("${user.authority.developer}")
     private String DEVELOPER_AUTHORITY;
 
